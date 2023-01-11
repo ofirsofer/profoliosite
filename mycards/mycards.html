@@ -9,10 +9,92 @@
 
     <style>
 
+.cyercle-a{
+        position: absolute;
+        border-radius: 50%;
+        top: -100.23942565917969px;
+        left: 391px;
+        width: 200px;
+        height: 200px;
+        transform: matrix(0.86, -0.52, 0.52, 0.86, 0, 0);
+        background: transparent linear-gradient(180deg, #F796FF 0%, #95F3FF 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 1px solid #FFFFFF67;
+
+      }
+
+      .cyercle-b{
+        position: absolute;
+        border-radius: 50%;
+        top: 992px;
+left: -244px;
+width: 352px;
+height: 352px;
+transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+background: transparent linear-gradient(180deg, #4E6AFF 0%, #D9A5FF 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FFFFFF67;
+opacity: 0.83;
+backdrop-filter: blur(41px);
+-webkit-backdrop-filter: blur(41px);
+
+      }
+
+      .cyercle-c{
+        position: absolute;
+        border-radius: 50%;
+        top: 968px;
+        right: -113px;
+width: 200px;
+height: 200px;
+transform: matrix(0.86, -0.52, 0.52, 0.86, 0, 0);
+background: transparent linear-gradient(180deg, #F796FF 0%, #95F3FF 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FFFFFF67;
+
+      }
+
+      .cyercle-d{
+        position: absolute;
+        border-radius: 50%;
+        top: 1739px;
+left: -100.2392578125px;
+width: 200px;
+height: 200px;
+transform: matrix(0.86, -0.52, 0.52, 0.86, 0, 0);
+background: transparent linear-gradient(180deg, #F796FF 0%, #95F3FF 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FFFFFF67;
+
+      }
+
+      .cyercle-e{
+        position: absolute;
+        border-radius: 50%;
+        top: 1685px;
+        right: -181px;
+width: 352px;
+height: 352px;
+transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+background: transparent linear-gradient(180deg, #4E6AFF 0%, #D9A5FF 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FFFFFF67;
+opacity: 1;
+backdrop-filter: blur(41px);
+-webkit-backdrop-filter: blur(41px);
+
+      }
+
+
+
       body{
         margin: 0;
         background-color: #D8D6DC;
         padding-bottom: 1968px;
+                /* fix horizontal scroll */
+                overflow-x: hidden;
+        max-width: 100%;
+      
       }
 
       .main-container{
@@ -33,6 +115,7 @@
         display: flex;
         width: 390px;
         height: 844px;
+        position: relative;
 
 
 
@@ -57,14 +140,35 @@
 
 
       }
-      957
 
-      @media (max-width: 957px){
+
+      @media (max-width: 1166px){
 
         .img-style2{
           position: static;
           top: 0;
       }
+
+      .main-container{
+        gap: 22px;
+        flex-wrap: wrap-reverse;
+      }
+    }
+
+    .card-fly{
+      position: absolute;
+      width: 319px;
+      top: 136px;
+      left: -294px;
+      height: 190px;
+      background: transparent url('img/pexels-mitchell-luo-3707669.png') 0% 0% no-repeat padding-box;
+      box-shadow: 20px 20px 20px #00000029;
+      mix-blend-mode: hard-light;
+      border: 1px solid #FFFFFF2C;
+      border-radius: 13px;
+      opacity: 1;
+      backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
     }
 
 
@@ -83,12 +187,30 @@
 
   <body>
 
+    <div class="cyercle-a">
+    </div>
+
+    <div class="cyercle-b">
+    </div>
+
+    <div class="cyercle-c">
+    </div>
+
+    <div class="cyercle-d">
+    </div>
+
+    <div class="cyercle-e">
+    </div>
+
+
+
     <div class="main-container">
 
 
 
       <div class="img-style1">
         <img src="pic/Transactions.png" alt="transaction">
+        <div class="card-fly"></div>
 
       </div >
 
