@@ -9,6 +9,10 @@ a{
   color: black;
 }
 
+.uptool-container{
+  width: 100%;
+}
+
 .uptool{
   position: absolute;
   top: 66px;
@@ -24,6 +28,20 @@ a{
 color: #000000;
 text-transform: uppercase;
 }
+
+.toolstyle-home{
+  opacity: 1;
+}
+
+.toolstyle-about{
+  opacity: 0.3;
+}
+
+.toolstyle-contact{
+  opacity: 0.3;
+}
+
+
 
 .main-section{
   display: flex;
@@ -64,11 +82,38 @@ text-transform: uppercase;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 1px solid #000000;
   opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: gotu, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 6px;
+  letter-spacing: 3px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2.7px;
+  position: relative;
+  transition: all 0.4s ease-out;
+}
+
+.line:hover{
+  background: #FFC899 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  border: 0;
+  position: relative;
+}
+
+.line:active{
+  background: #FFEB99 0% 0% no-repeat padding-box;
+  border: 0;
+  position: relative;
 }
 
 .titel-projects{
   position: relative;
-
   display: flex;
   justify-content: center;
   font-size: 40px;
@@ -80,7 +125,6 @@ text-transform: uppercase;
   }
 
   .projects-container{
-
     position: relative;
     display: flex;
     flex-direction: row;
@@ -88,7 +132,6 @@ text-transform: uppercase;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-
   }
 
   .project-solo-container{
@@ -113,7 +156,7 @@ text-transform: uppercase;
   }
 
   .color-yellow:hover{
-opacity: 0.8;
+    opacity: 0.8;
   }
 
   @media screen and (max-width: 501px){
@@ -156,6 +199,31 @@ opacity: 0.8;
 
     .main-section{
       top: 340px;
+    }
+
+    .uptool-container{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    .uptool{
+      position: relative;
+  top: 39px;
+  font-size: 15px;
+  right: 0;
+
+  z-index: 1000;
+  gap: 38px;
+  
+
+
+    }
+
+    .line{
+
+      font-size: 15px;
+
     }
 
 
@@ -215,10 +283,12 @@ opacity: 0.8;
     text-transform: lowercase;
     text-align: center;
     margin-bottom: 70px;
+    
   }
 
   .name-proj-style-s-f a:hover{
     color: #ACE3C1;
+    transition: all 0.4s ease-out;
   }
 
   .name-proj-style-i-k{
@@ -238,6 +308,7 @@ opacity: 0.8;
 
   .name-proj-style-i-k a:hover{
     color: #FDDB87;
+    transition: all 0.4s ease-out;
   }
 
   .name-proj-style-t-b{
@@ -257,6 +328,7 @@ opacity: 0.8;
 
   .name-proj-style-t-b a:hover{
     color: #FF99C8;
+    transition: all 0.4s ease-out;
   }
 
   .name-proj-style-m-c{
@@ -276,6 +348,7 @@ opacity: 0.8;
 
   .name-proj-style-m-c a:hover{
     color: #E4C1F9;
+    transition: all 0.4s ease-out;
 
   }
 
@@ -327,41 +400,34 @@ opacity: 0.8;
 
   .footer-text{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-family: gotu, sans-serif;
-
-letter-spacing: 3px;
-color: #FFFFFF;
-text-transform: uppercase;
-
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
   }
 
   .footer-text-c{
     text-align: center;
-    font-size: 19px;
+    font-size: 17px;
     font-family: gotu, sans-serif;
     text-align: center;
-letter-spacing: 2.85px;
-text-transform: capitalize;
-
-letter-spacing: 3px;
-color: #FFFFFF;
-
+    letter-spacing: 2.85px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #FFFFFF;
   }
 
 
 
   .footer-text-num{
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     font-family:   Kannada Sangam MN;
     text-align: center;
-letter-spacing: 2.85px;
-
-
-letter-spacing: 3px;
-color: #FFFFFF;
-
+    letter-spacing: 2.85px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
   }
 
 
