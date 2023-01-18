@@ -1,3 +1,8 @@
+html{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body{
   background-color: #F7EFF3;
   display: flex;
@@ -5,6 +10,7 @@ body{
   /* fix horizontal scroll */
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
 }
 
 
@@ -250,7 +256,7 @@ body{
 .ipad-mobile-container{
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 4px;
   width: 100%;
     display: none;
     overflow-x: auto;
@@ -291,7 +297,7 @@ body{
 
   .vid-place{
 
-    height: 298.3px;
+    height: 211px;
 
   }
 
@@ -307,19 +313,30 @@ body{
     flex-direction: column;
   }
 
-  .vid3{
-    width: 357.91px;
-    height: 198.93px;
-    left: 137px;
-    top: 12px;
+  .vid1{
+    width: 353.91px;
+    height: 161.93px;
+    left: 170px;
+    top: 18px;
 
   }
 
-  .vid1{
-    width: 405.91px;
-    height: 234.93px;
-    left: 145px;
-    top: 24px;
+  .vid3{
+    width: 357.91px;
+    height: 141.93px;
+    left: 137px;
+    top: 8px;
+}
+
+
+  .cyercle-b{
+    top: -1256.771728515625px;
+  }
+
+  .cyercle-c{
+    left: -139.42578125px;
+  }
+
   }
 
   .ipad-pic{
@@ -354,7 +371,7 @@ body{
   .ipad-mobile-container{
     display: flex;
     position: relative;
-    padding-left: 50px;
+    padding-left: 16px;
+
 
   }
-}
