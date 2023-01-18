@@ -7,10 +7,6 @@ body{
   overflow-x: hidden;
 }
 
-      html{
-        overflow-x: hidden;
-      }
-
 
 
 .cyercle-b{
@@ -134,7 +130,6 @@ body{
   flex-direction: row;
   gap: 175px;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -143,7 +138,6 @@ body{
     flex-direction: row;
     gap: 175px;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
 
 
@@ -154,7 +148,6 @@ body{
     flex-direction: row;
     gap: 133px;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -162,12 +155,17 @@ body{
     top: 38px;
     position: absolute;
     left: 76px;
+    width:548px;
+    height:308px;
   }
 
   .vid3{
     top: 16px;
     position: absolute;
     left: 40px;
+    width:548px;
+     height:308px;
+
   }
 
   .ipad-text{
@@ -188,8 +186,11 @@ body{
 
   .ipad-pic{
     position: relative;
-    width: 1332px;
+    width: 1343px;
     height: 1250px;
+    background-image: url(ipadnew.png);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 
   }
 
@@ -217,7 +218,7 @@ body{
 .vid-place{
   position: relative;
   display: flex;
-  width: 100%;
+
 }
 
 .web-home-container{
@@ -235,6 +236,7 @@ body{
   gap: 195px;
   justify-content: center;
   align-items: center;
+
 }
 
 .iphone-seaction{
@@ -242,13 +244,23 @@ body{
   flex-direction: column;
   gap: 195px;
   align-items: center;
+
+}
+
+.ipad-mobile-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+    display: none;
+    overflow-x: auto;
 }
 
 .hero-pic{
   display: flex;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 501px){
 
   .text-style-thin{
     text-align: center;
@@ -267,6 +279,8 @@ body{
   .conteiner1{
     overflow-x: auto;
     z-index: 1000;
+    padding-bottom: 222px;
+    padding-left: 16px;
   }
 
   .hero-pic{
@@ -276,8 +290,71 @@ body{
   }
 
   .vid-place{
-        width: 368.13px;
+
     height: 298.3px;
+
+  }
+
+  .web-container1{
+    flex-direction: column;
+  }
+
+  .web-container2{
+    flex-direction: column;
+  }
+
+  .web-container3{
+    flex-direction: column;
+  }
+
+  .vid3{
+    width: 357.91px;
+    height: 198.93px;
+    left: 137px;
+    top: 12px;
+
+  }
+
+  .vid1{
+    width: 405.91px;
+    height: 234.93px;
+    left: 145px;
+    top: 24px;
+  }
+
+  .ipad-pic{
+
+      /* position: relative;
+      width: 100%;
+      height: 520px;
+      left: 10px;
+      overflow-x: auto;
+      background-image: url(ipad-mobile.png);
+      background-repeat: no-repeat; Do not repeat the image */
+
+      display: none;
+
+  
+    
+
+  }
+
+  .ipad-responsive{
+    width: 360px;
+    height: auto;
+  }
+
+  .ipad-responsive-hor{
+    width: 390px;
+    height: auto;
+  }
+
+
+
+  .ipad-mobile-container{
+    display: flex;
+    position: relative;
+    padding-left: 50px;
 
   }
 }
