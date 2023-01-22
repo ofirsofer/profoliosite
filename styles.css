@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   padding-bottom: 1200px;
   margin: 0;
@@ -36,7 +40,7 @@ text-transform: uppercase;
   gap: 288px;
   position: relative;
   top: 260px;;
-  padding-bottom: 130px;
+  padding-bottom: 192px;
 }
 
 .toolstyle-active{
@@ -225,8 +229,7 @@ text-transform: uppercase;
     }
 
     .disctibtion-style-about-me{
-      width: 80%;
-
+width: 80%; !important
     }
 
 
@@ -486,7 +489,6 @@ text-transform: uppercase;
   }
 
   .list-all{
-
 
   }
 
