@@ -96,7 +96,7 @@ body{
   font-family: brother-1816, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 34PX;
+  font-size: 30PX;
 
 }
 
@@ -108,7 +108,7 @@ body{
   font-family: brother-1816, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 31px;
 }
 
 .titel-web-screen{
@@ -117,14 +117,14 @@ body{
   color: #434343;
   font-family: brother-1816, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 44px;
 }
 
 .web-container-dad{
   display: flex;
   flex-direction: column;
-  gap: 262px;
+  gap: 160px;
   align-items: center; 
   justify-content: center; 
   z-index: 999; 
@@ -219,6 +219,7 @@ body{
   flex-direction: row;
   gap: 20px;
   width: 100%;
+  padding-bottom: 70px;
 }
 
 .vid-place{
@@ -298,6 +299,7 @@ height: auto;
 display: flex;
 position: relative;
 padding-left: 16px;
+display: none;
 
 
 }
@@ -383,11 +385,14 @@ padding-left: 16px;
 
   .ipad-pic{
     display: none;
-  
-  
-  
-  
-  
+  }
+
+  .ipad-mobile-container{
+    display: flex;
+  }
+
+  .hero-container{
+    gap: 150px;
   }
 
   }
