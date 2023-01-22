@@ -266,7 +266,7 @@ body{
   display: flex;
 }
 
-@media screen and (max-width: 501px){
+@media screen and (max-width: 400px){
 
   .text-style-thin{
     text-align: center;
@@ -317,7 +317,7 @@ body{
     width: 353.91px;
     height: 161.93px;
     left: 170px;
-    top: 18px;
+    top: 18px; 
 
   }
 

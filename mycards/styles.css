@@ -11,10 +11,6 @@
   border: 1px solid #FFFFFF67;
 }
 
-      html{
-        overflow-x: hidden;
-      }
-
 .cyercle-b{
   position: absolute;
   border-radius: 50%;
