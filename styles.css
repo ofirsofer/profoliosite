@@ -472,11 +472,11 @@ width: 80%; !important
     flex-direction: column;
     gap: 50px;
     position: relative;
-    top: 197px;
+
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 316px;
+
 
   }
 
@@ -489,6 +489,9 @@ width: 80%; !important
   }
 
   .list-all{
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
 
   }
 
