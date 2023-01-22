@@ -2,6 +2,7 @@ body{
   background-color: #FFFAF4 ;
   /* fix horizontal scroll */
   overflow-x: hidden;
+  padding-bottom: 0;
 
 
 
@@ -326,6 +327,38 @@ position: relative;
     top: 164px;
   }
 
+  .cart-mobile-container{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 10px;
+    overflow-x: auto;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+  
+  
+  
+  
+  
+  
+  .ipad-responsive{
+  width: 338px;
+  height: auto;
+  }
+  
+  .section-cart-container{
+    opacity: 0;
+  }
+
   @media screen and (max-width: 501px){
 
 
@@ -399,6 +432,7 @@ display: flex;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
     gap: 32px;
+    opacity: 1;
 
 }
 
@@ -416,24 +450,8 @@ body{
 
 }
 
-.ipad-mobile-container{
-display: none;
-/* flex-direction: row;
-gap: 4px;
-width: 100%;
-display: none;
-overflow-x: auto;
-position: relative;
-padding-left: 16px; */
-}
 
 
-
-
-.ipad-responsive{
-width: 338px;
-height: auto;
-}
 
 
 
