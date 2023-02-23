@@ -85,13 +85,6 @@
 }
 
 
-html{
-  margin: 0;
-  background-color: #D8D6DC;
-  /* fix horizontal scroll */
-  overflow-x: hidden;     
-  max-width: 100%;
-}
 
 body{
   margin: 0;
@@ -181,8 +174,12 @@ body{
 
 
     .img-style3{
-      width: 360px;
-      height: 716.6px;
+      width: 369px;
+      height: 786.6px;
+    }
+
+    .main-container{
+      top: 34px;
     }
 
 
